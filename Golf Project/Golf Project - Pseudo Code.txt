@@ -1,0 +1,87 @@
+﻿Golf Project [Easy]:
+
+
+* Create Data File
+* Assign data file to a variable
+* Loop 4x:
+   * Read line [x]
+   * Assign variables score and par
+   * Compare score and par
+   * Determine output
+   * Output
+   * Add par to overall par
+   * Add score to overall score
+* Compare overall par and overall score
+* Determine output
+* Output
+* Input(“Program Complete. Press Enter to Exit…”) **ends program
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Golf Project [Medium]:
+
+
+* Create Data File
+* Assign data file to a variable
+* Assign variables Awins and Bwins
+* Assign variable HighestHole as [0, 0]
+* Assign index as 1
+* Loop 9x:
+   * Read line [x]
+   * Assign variables par, scoreA, and scoreB
+   * Compare scores between playerA and playerB
+   * If sum of both scores is greater than HighestHole[1], set variable HighestHole to [index, sum]
+   * Assign winner, add to either Awins or Bwins
+   * Add par to overall par
+   * Add scoreA to overall scoreA
+   * Add scoreB to overall scoreB
+   * Increase variable index by 1
+* Compare scoreAsum and scoreBsum to find better and worse score
+* Print (better score, worse score)
+* Compare better score to par and print
+* Compare worse score to par and print
+* Print amount of holes won by best score
+* Print the highest hole
